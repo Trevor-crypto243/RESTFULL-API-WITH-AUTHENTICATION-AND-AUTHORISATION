@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: laravel_authorisation
+    container_name: laravel_authorisation
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mysql
+    networks:
+      - laravel
+
+  mysql:
+    image: mysql:5.7
+    container_name: laravel_authorisation_mysql
+    environment:
+      MYSQL_DATABASE: laravel_authorisation
+      MYSQL_USER: laravel_user
+      MYSQL_PASSWORD: laravel_password
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - "3306:3306"
+    networks:
+      - laravel
+
+networks:
+  laravel:
+    driver: bridge
