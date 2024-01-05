@@ -1,0 +1,238 @@
+[
+  {
+    "swift_code": "ABCLKENA",
+    "bank_name": "AFRICAN BANKING CORPORATION LTD"
+  },
+  {
+    "swift_code": "ABNGKENA",
+    "bank_name": "ACCESS BANK (KENYA) PLC"
+  },
+  {
+    "swift_code": "AFRIKENX",
+    "bank_name": "BANK OF AFRICA KENYA LTD"
+  },
+  {
+    "swift_code": "BARBKENA",
+    "bank_name": "BANK OF BARODA (KENYA) LTD"
+  },
+  {
+    "swift_code": "BARCKENX",
+    "bank_name": "ABSA BANK KENYA PLC"
+  },
+  {
+    "swift_code": "BARCKENXMNR",
+    "bank_name": "ABSA BANK KENYA PLC"
+  },
+  {
+    "swift_code": "BARCKENXNPB",
+    "bank_name": "ABSA BANK KENYA PLC"
+  },
+  {
+    "swift_code": "BKIDKENA",
+    "bank_name": "BANK OF INDIA"
+  },
+  {
+    "swift_code": "CBAFKENX",
+    "bank_name": "NCBA BANK KENYA PLC"
+  },
+  {
+    "swift_code": "CBKEKENX",
+    "bank_name": "CENTRAL BANK OF KENYA"
+  },
+  {
+    "swift_code": "CBKEKENXBKG",
+    "bank_name": "CENTRAL BANK OF KENYA"
+  },
+  {
+    "swift_code": "CIFIKENA",
+    "bank_name": "KINGDOM BANK LIMITED"
+  },
+  {
+    "swift_code": "CITIKENA",
+    "bank_name": "CITIBANK N.A. NAIROBI"
+  },
+  {
+    "swift_code": "CONKKENA",
+    "bank_name": "CONSOLIDATED BANK OF KENYA LTD"
+  },
+  {
+    "swift_code": "CRBTKENA",
+    "bank_name": "CREDIT BANK LIMITED"
+  },
+  {
+    "swift_code": "CRMFKENA",
+    "bank_name": "CARITAS MICROFINANCE BANK"
+  },
+  {
+    "swift_code": "DEVKKENA",
+    "bank_name": "DEVELOPMENT BANK OF KENYA LIMITED"
+  },
+  {
+    "swift_code": "DTKEKENA",
+    "bank_name": "DIAMOND TRUST BANK KENYA LIMITED"
+  },
+  {
+    "swift_code": "DUIBKENA",
+    "bank_name": "DIB BANK KENYA LTD"
+  },
+  {
+    "swift_code": "DUKNKENA",
+    "bank_name": "DUBAI BANK KENYA LTD"
+  },
+  {
+    "swift_code": "ECOCKENA",
+    "bank_name": "ECOBANK KENYA LTD"
+  },
+  {
+    "swift_code": "EQBLKENA",
+    "bank_name": "EQUITY BANK LIMITED"
+  },
+  {
+    "swift_code": "EQUAKENA",
+    "bank_name": "SPIRE BANK LTD"
+  },
+  {
+    "swift_code": "ESATKENA",
+    "bank_name": "EASTERN AND SOUTHERN AFRICAN TRADE"
+  },
+  {
+    "swift_code": "FABLKENA",
+    "bank_name": "FAMILY BANK LIMITED"
+  },
+  {
+    "swift_code": "FAUMKENA",
+    "bank_name": "FAULU MICRO BANK LTD"
+  },
+  {
+    "swift_code": "GAFRKENA",
+    "bank_name": "GULF AFRICAN BANK LTD"
+  },
+  {
+    "swift_code": "GTBIKENA",
+    "bank_name": "GUARANTY TRUST BANK LTD"
+  },
+  {
+    "swift_code": "GUARKENA",
+    "bank_name": "GUARDIAN BANK LIMITED"
+  },
+  {
+    "swift_code": "HABBKENX",
+    "bank_name": "HABIB BANK LIMITED"
+  },
+  {
+    "swift_code": "HBZUKENA",
+    "bank_name": "HABIB BANK AG ZURICH"
+  },
+  {
+    "swift_code": "HFCOKENA",
+    "bank_name": "HOUSING FINANCE COMPANY LIMITED"
+  },
+  {
+    "swift_code": "IFCBKENA",
+    "bank_name": "FIRST COMMUNITY BANK LIMITED"
+  },
+  {
+    "swift_code": "IMBLKENA",
+    "bank_name": "I AND M BANK LTD"
+  },
+  {
+    "swift_code": "IMBLKENAFTR",
+    "bank_name": "I AND M BANK LTD"
+  },
+  {
+    "swift_code": "IMBLKENATRD",
+    "bank_name": "I AND M BANK LTD (TRADE FINANCE DEPARTMENT)"
+  },
+  {
+    "swift_code": "IMPLKENA",
+    "bank_name": "IMPERIAL BANK LIMITED"
+  },
+  {
+    "swift_code": "KCBLKENX",
+    "bank_name": "KENYA COMMERCIAL BANK LIMITED"
+  },
+  {
+    "swift_code": "KCOOKENA",
+    "bank_name": "THE CO-OPERATIVE BANK OF KENYA LTD"
+  },
+  {
+    "swift_code": "KPOBKEN1",
+    "bank_name": "KENYA POST OFFICE SAVINGS BANK"
+  },
+  {
+    "swift_code": "KREPKENA",
+    "bank_name": "K-REP BANK LIMITED"
+  },
+  {
+    "swift_code": "KWMIKENX",
+    "bank_name": "KENYA WOMEN MICROFINANCE BANK"
+  },
+  {
+    "swift_code": "MIEKKENA",
+    "bank_name": "MIDDLE EAST BANK KENYA LTD"
+  },
+  {
+    "swift_code": "MORBKENA",
+    "bank_name": "M-ORIENTAL BANK LTD"
+  },
+  {
+    "swift_code": "MYBKKENA",
+    "bank_name": "MAYFAIR CIB BANK LIMITED"
+  },
+  {
+    "swift_code": "MYBKKENAXXX",
+    "bank_name": "MAYFAIR BANK LIMITED"
+  },
+  {
+    "swift_code": "NBKEKENX",
+    "bank_name": "NATIONAL BANK OF KENYA LTD."
+  },
+  {
+    "swift_code": "PAUTKENA",
+    "bank_name": "PARAMOUNT UNIVERSAL BANK LIMITED"
+  },
+  {
+    "swift_code": "PRIEKENX",
+    "bank_name": "PRIME BANK LTD."
+  },
+  {
+    "swift_code": "RMFBKENA",
+    "bank_name": "RAFIKI MICROFINANCE BANK"
+  },
+  {
+    "swift_code": "SBICKENX",
+    "bank_name": "STANBIC BANK LIMITED"
+  },
+  {
+    "swift_code": "SBMKKENA",
+    "bank_name": "SBM BANK"
+  },
+  {
+    "swift_code": "SCBLKENX",
+    "bank_name": "STANDARD CHARTERED BANK KENYA LIMITED"
+  },
+  {
+    "swift_code": "SCBLKENXSSU",
+    "bank_name": "STANDARD CHARTERED BANK KENYA LIMITED (SECURITIES SERVICES UNIT)"
+  },
+  {
+    "swift_code": "SIDNKENA",
+    "bank_name": "SIDIAN BANK LIMITED"
+  },
+  {
+    "swift_code": "SMEPKENA",
+    "bank_name": "SMEP MICROFINANCE BANK"
+  },
+  {
+    "swift_code": "SPBLKENA",
+    "bank_name": "SPIRE BANK LTD"
+  },
+  {
+    "swift_code": "UNAFKENA",
+    "bank_name": "UBA KENYA BANK LIMITED"
+  },
+  {
+    "swift_code": "VICMKENA",
+    "bank_name": "VICTORIA COMMERCIAL BANK LIMITED"
+  }
+]
