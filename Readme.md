@@ -84,3 +84,6 @@ docker build -t laravel_authorisation .
 //Running a single container
 docker run -p 8000:8000 laravel_authorisation
 
+Ensure the docker-compose,yml and the Dockerfile are in the root directory of the project, i.e same directory as the env and the artisan file
+
+rebuild with this command docker build -t container_name .
