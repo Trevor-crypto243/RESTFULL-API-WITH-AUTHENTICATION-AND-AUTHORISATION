@@ -18,12 +18,16 @@ const users_service_1 = require("./users.service");
 const create_user_dto_1 = require("./dto/create-user.dto");
 const update_user_dto_1 = require("./dto/update-user.dto");
 const user_signup_dto_1 = require("./dto/user-signup.dto");
+const user_signin_dto_1 = require("./dto/user-signin.dto");
 let UsersController = class UsersController {
     constructor(usersService) {
         this.usersService = usersService;
     }
     async signup(body) {
         return { user: await this.usersService.signup(body) };
+    }
+    async signin(body) {
+        return { user: await this.usersService.signin(body) };
     }
     create(createUserDto) {
         return this.usersService.create(createUserDto);
@@ -46,9 +50,16 @@ __decorate([
     (0, common_1.Post)('signup'),
     __param(0, (0, common_1.Body)()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [user_signup_dto_1.UserSignUpClass]),
+    __metadata("design:paramtypes", [user_signup_dto_1.UserSignUpDTO]),
     __metadata("design:returntype", Promise)
 ], UsersController.prototype, "signup", null);
+__decorate([
+    (0, common_1.Post)('signin'),
+    __param(0, (0, common_1.Body)()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [user_signin_dto_1.UserSignInDTO]),
+    __metadata("design:returntype", Promise)
+], UsersController.prototype, "signin", null);
 __decorate([
     (0, common_1.Post)(),
     __param(0, (0, common_1.Body)()),

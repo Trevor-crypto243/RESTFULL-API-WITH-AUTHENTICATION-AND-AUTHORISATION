@@ -17,13 +17,26 @@ const common_1 = require("@nestjs/common");
 const typeorm_1 = require("@nestjs/typeorm");
 const typeorm_2 = require("typeorm");
 const user_entity_1 = require("./entities/user.entity");
+const bcrypt_1 = require("bcrypt");
 let UsersService = class UsersService {
     constructor(usersRepository) {
         this.usersRepository = usersRepository;
     }
     async signup(body) {
+        const userExists = await this.findUserByEmail(body.email);
+        if (userExists) {
+            throw new common_1.BadRequestException('Email is already in use.');
+        }
+        body.password = await (0, bcrypt_1.hash)(body.password, 10);
         const user = this.usersRepository.create(body);
         return await this.usersRepository.save(user);
+    }
+    async signin(UserSignInDTO) {
+        const userExists = await this.findUserByEmail(UserSignInDTO.email);
+        if (userExists) {
+            throw new common_1.BadRequestException('Email is not available.');
+        }
+        return userExists;
     }
     create(createUserDto) {
         return 'This action adds a new user';
@@ -39,6 +52,9 @@ let UsersService = class UsersService {
     }
     remove(id) {
         return `This action removes a #${id} user`;
+    }
+    async findUserByEmail(email) {
+        return await this.usersRepository.findOneBy({ email });
     }
 };
 exports.UsersService = UsersService;

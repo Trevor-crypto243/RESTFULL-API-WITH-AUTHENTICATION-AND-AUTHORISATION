@@ -9,24 +9,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UserSignUpClass = void 0;
+exports.UserSignUpDTO = void 0;
 const class_validator_1 = require("class-validator");
-class UserSignUpClass {
+const user_signin_dto_1 = require("./user-signin.dto");
+class UserSignUpDTO extends user_signin_dto_1.UserSignInDTO {
 }
-exports.UserSignUpClass = UserSignUpClass;
+exports.UserSignUpDTO = UserSignUpDTO;
 __decorate([
     (0, class_validator_1.IsNotEmpty)({ message: 'Name can not be null' }),
     (0, class_validator_1.IsString)({ message: 'Name should be a string' }),
     __metadata("design:type", String)
-], UserSignUpClass.prototype, "name", void 0);
-__decorate([
-    (0, class_validator_1.IsEmail)({}, { message: 'Should be a valid email' }),
-    (0, class_validator_1.IsNotEmpty)({ message: 'Email can not be null' }),
-    __metadata("design:type", String)
-], UserSignUpClass.prototype, "email", void 0);
-__decorate([
-    (0, class_validator_1.IsNotEmpty)({ message: 'Password can not be null' }),
-    (0, class_validator_1.MinLength)(5, { message: 'Password minimum character should be 5' }),
-    __metadata("design:type", String)
-], UserSignUpClass.prototype, "password", void 0);
+], UserSignUpDTO.prototype, "name", void 0);
 //# sourceMappingURL=user-signup.dto.js.map
