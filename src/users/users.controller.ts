@@ -16,7 +16,7 @@ export class UsersController {
   }
 
   @Post('signin')
-  async signin(@Body() body:UserSignInDTO) {
+  async signin(@Body() body:UserSignInDTO) :Promise<{accessToken: string; user: UserEntity}>{
     const user = await this.usersService.signin(body)
     const accessToken = await this.usersService.accessToken(user);
 

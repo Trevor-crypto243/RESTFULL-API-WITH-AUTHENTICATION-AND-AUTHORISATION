@@ -29,7 +29,7 @@ export class UsersService {
     return await this.usersRepository.save(user)
   }
 
-  async signin(UserSignInDTO:UserSignInDTO){
+  async signin(UserSignInDTO:UserSignInDTO):Promise<UserEntity>{
     // const userExists =await this.findUserByEmail(UserSignInDTO.email)
     const userExists =await this.usersRepository.createQueryBuilder('users').addSelect('users.password').where('users.email=:email',{email:UserSignInDTO.email}).getOne() //customised query
 
@@ -72,7 +72,7 @@ export class UsersService {
     return await this.usersRepository.findOneBy({email})
   }
 
-  async accessToken(user:UserEntity){
+  async accessToken(user:UserEntity):Promise<string>{
     return sign({
       id:user.id,
       email:user.email
