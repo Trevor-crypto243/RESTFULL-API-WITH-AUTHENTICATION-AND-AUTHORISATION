@@ -136,5 +136,16 @@ getting current user from any controller
 Param decorators, Body decorators
 created custom user decorator
 
-_____________Creating custom authentication and authorisation guards
+_____________Creating custom authentication and authorisation guards  docs.nestjs.com/guards
+@Injectable() decorator that implements the canActivate interface
+Have single responsibility
 
+They are excecuted after all middleware , but before any interceptor or pipe
+
+Request -> Middleware -> Guards -> Interceptor -> Handler/Controller -> Response
+
+
+check whether user is signed in - authentication
+checking if a user is authorised to access a particular resource, route - authorisation(depends on user roles)
+
+Reflections and metadata
