@@ -5,6 +5,10 @@ import { UpdateUserDto } from './dto/update-user.dto';
 import { UserSignUpDTO } from './dto/user-signup.dto';
 import { UserEntity } from './entities/user.entity';
 import { UserSignInDTO } from './dto/user-signin.dto';
+import { CurrentUser } from '../utility/decorators/current-user.decorator';
+
+
+
 
 @Controller('users')
 export class UsersController {
@@ -23,19 +27,26 @@ export class UsersController {
     return {accessToken,user}
   }
 
+  @Get('me')
+  getProfile(@CurrentUser() currentUser:UserEntity){
+    return currentUser
+    
+  }
+
+
   @Post()
   create(@Body() createUserDto: CreateUserDto) {
     return this.usersService.create(createUserDto);
   }
 
-  @Get()
-  findAll() {
-    return this.usersService.findAll();
+  @Get('all')
+  async findAll():Promise<UserEntity[]>{
+    return await this.usersService.findAll();
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.usersService.findOne(+id);
+  async findOne(@Param('id') id: string) {
+    return await this.usersService.findOne(+id);
   }
 
   @Patch(':id')

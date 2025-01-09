@@ -124,3 +124,17 @@ Auto validation
 ____________Password encoding
 npm i bcrypt
 npm i jsonwebtoken @types/jsonwebtoken
+
+________Find all and find one method
+writing custom queries w query builders
+
+_______Middleware and custom decorator docs.nestjs.com/middleware
+creating the middlewares in the middlewares folder
+Configuring the middleware in app module
+
+getting current user from any controller
+Param decorators, Body decorators
+created custom user decorator
+
+_____________Creating custom authentication and authorisation guards
+
